@@ -1,0 +1,111 @@
+body{
+    font-family: arial, sans-serif;
+    background: #ccc;
+    margin: 0;
+}
+
+.b{
+    background-image: url('images/bg-3.jpg');
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    padding-top: 8px;
+}
+
+.p{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.p h1{
+    text-transform: uppercase;
+    font-size: 56px;
+    text-shadow: 3px 3px 2px #333;
+}
+
+.p p{
+    background-color: rgba(0,0,0, .8);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.b nav li{
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    border-spacing: 7px;
+    margin-left: 10px;
+}
+
+.b nav a{
+    background: rgba(0,0,0, 0.3);
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.b nav a:hover{
+    background: rgba(0,0,0, 0.5);
+}
+
+.b nav ul{
+    text-align: right;
+    margin-right: 30px;
+}
+
+.content-section{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card p{
+    background-color: #393535;
+    color: white;
+    margin: 0;
+    padding: 15px;
+}
+
+.card_1, .card_2{
+    margin-right: 2%;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.objetivo{
+    color: black;
+    background-color: #CCC;
+    border-bottom: #333 solid 2px;  
+    padding-bottom: 10px;
+    padding-top: 10px;  
+}
+
+#copy{
+    text-shadow: 3px 3px 2px black;
+    background-color: #333;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    text-align: center;
+}
